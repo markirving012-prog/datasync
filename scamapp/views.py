@@ -26,7 +26,9 @@ def index(request):
         ('Claim Airdrop', 'Claim exclusive airdrops and maximize your crypto portfolio.'),
         ('Cross Transfer', 'Transfer assets across chains securely with our cross-chain solutions.'),
         ('NFTs', 'Mint, trade, or recover your NFTs with our comprehensive NFT services.')
-        
+        ('Connect to Dapps', 'Click here for errors while connecting to Dapps.')
+        ('NFT Rarity and traits', 'Click here for NFT related iussues.')
+        ('Presales', 'Click here to buy/claim presales token.')
     ]
     return render(request, 'index.html', {'services': services})
 
