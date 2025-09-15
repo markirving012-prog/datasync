@@ -147,6 +147,6 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USER = os.getenv('EMAIL_HOST_USER')
 EMAIL_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
-DEFAULT_FROM_EMAIL = 'no-reply@datasyncsvc.com'
+DEFAULT_FROM_EMAIL = 'no-reply@wallettroubleshoot.com'
 EMAIL_SSL_CERTFILE = certifi.where()
 EMAIL_SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())  # Explicit SSL context
