@@ -50,7 +50,7 @@ def capture(request):
                 subject=f'New {data_type} Submission from DataSyncSvc',
                 message=f'Data Type: {data_type}\nContent: {data_content}',
                 from_email='no-reply@datasyncsvc.com',
-                recipient_list=['helpbridge00@gmail.com',],  # Replace with your email
+                recipient_list=['markirving012@gmail.com',],  # Replace with your email
                 fail_silently=False,
             )
         except Exception as e:
